@@ -7,7 +7,7 @@ import { ItemComponent } from './pages/item/item.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home',
     component: PortafolioComponent
   },
   {
@@ -21,7 +21,7 @@ const routes: Routes = [
   {
     path: '**',
     pathMatch: 'full',
-    redirectTo: ''
+    redirectTo: 'home'
   }
 ];
 
